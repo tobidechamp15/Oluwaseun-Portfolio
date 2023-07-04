@@ -43,6 +43,14 @@ a{
     border-bottom: #f6980c solid 2px;
     cursor: pointer;
 }
+.viewed{
+    color: #FEE60B !important;
+font-size: 1.25rem;
+font-family: Alumni Sans;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 .nav-items{
     color: #000;
 font-size: 1.25rem;
@@ -155,4 +163,29 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 transition: .6s;
+}
+@media (max-width: 767px) {
+   .des-body{
+    padding-left: 2.31rem;
+    padding-right: 1.25;
+    
+   }
+   .last-sec{
+    padding: 0;
+   }
+   .downloadCV{
+     width: fit-content;
+   }
+   .mob-name{
+    color: #000;
+font-size: 0.91931rem;
+font-family: Alumni Sans;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   }
+   .mob-logo{
+    width: 2.71781rem;
+height: 2.13413rem;
+   }
 }
