@@ -248,10 +248,10 @@ a {
 #submit {
   border-radius: 7px;
   border: 0.701px solid #ae6d0a;
-  box-shadow: -2.102409839630127px -2.102409839630127px 2.803212881088257px 3.504016160964966px
+  /* box-shadow: -2.102409839630127px -2.102409839630127px 2.803212881088257px 3.504016160964966px
       #ae6d0a inset,
     0.7008032202720642px 0.7008032202720642px 2.803212881088257px
-      0.7008032202720642px #ae6d0a;
+      0.7008032202720642px #ae6d0a; */
       
 flex-shrink: 0;
 color: #000;
@@ -271,7 +271,7 @@ font-weight: 400;
 line-height: normal;
 border-radius: 10px;
 border: 1px solid #AE6D0A;
-box-shadow: -3px -3px 4px 5px #AE6D0A inset, 1px 1px 4px 1px #AE6D0A;
+/* box-shadow: -3px -3px 4px 5px #AE6D0A inset, 1px 1px 4px 1px #AE6D0A; */
 }
 .last-sec {
   padding-left: 13.56rem;
