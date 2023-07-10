@@ -102,3 +102,11 @@ navProjects.addEventListener("click", () => {
   section.scrollIntoView({ behavior: "smooth" });
   console.log("clikkk");
 });
+
+const contactButton = document.querySelector(".contact-button");
+contactButton.addEventListener("click", () => {
+  let section = document.querySelector(".contact");
+  section.scrollIntoView({
+    behavior:"smooth"
+  })
+})

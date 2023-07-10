@@ -144,6 +144,7 @@ line-height: normal;
   border-radius: 0px 0px 19.053px 19.053px;
   background: #d9d9d9;
   padding: 17px 180 100 14px;
+  outline: none;
 }
 .name:hover {
   color: #ae6d0a;
