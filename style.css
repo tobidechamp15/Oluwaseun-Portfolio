@@ -1,191 +1,260 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.name{
-    color: #000;
-font-size: 1.25rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: fit-content;
-cursor: pointer;
-height: fit-content;
+.name {
+  color: #000;
+  font-size: 1.25rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: fit-content;
+  cursor: pointer;
+  height: fit-content;
 }
-.name:hover{
-    color: #AE6D0A;
-font-size: 1.75rem;
-transition: .5s;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-width: fit-content;
-height: fit-content;
+.name:hover {
+  color: #ae6d0a;
+  font-size: 1.75rem;
+  transition: 0.5s;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: fit-content;
+  height: fit-content;
 }
-#logo-des{
-    width: 3.69544rem;
-height: 2.90175rem;
+#logo-des {
+  width: 3.69544rem;
+  height: 2.90175rem;
 }
-#logo-des:hover{
-    width: 3.99544rem;
-height: 3.10175rem;
+#logo-des:hover {
+  width: 3.99544rem;
+  height: 3.10175rem;
 }
-.logo-des a{
-    width: 3.69544rem;
-height: 2.90175rem;
+.logo-des a {
+  width: 3.69544rem;
+  height: 2.90175rem;
 }
-a{
-    text-decoration: none;
-    
+a {
+  text-decoration: none;
 }
-.border-bottoms{
-    border-bottom: #f6980c solid 2px;
-    cursor: pointer;
+.border-bottoms {
+  border-bottom: #f6980c solid 2px;
+  cursor: pointer;
 }
-.viewed{
-    color: #FEE60B !important;
-font-size: 1.25rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.viewed {
+  color: #fee60b !important;
+  font-size: 1.25rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.nav-items{
-    color: #000;
-font-size: 1.25rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.nav-items {
+  color: #000;
+  font-size: 1.25rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.nav-items:hover{
-    font-size: 1.75rem;
-transition: .2s;
-color: #ef940c;
-font-weight: 700;
+.nav-items:hover {
+  font-size: 1.75rem;
+  transition: 0.2s;
+  color: #ef940c;
+  font-weight: 700;
 }
-.des-body{
-    padding-top: 9.35rem;
-    padding-left: 8.31rem;
-    padding-right: 7.06rem;
+.mobNav{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
 }
-.des-body-name{
-color: #AE6D0A;
-font-size: 2.25rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.des-body {
+  padding-top: 9.35rem;
+  padding-left: 8.31rem;
+  padding-right: 7.06rem;
+}
+.des-body-name {
+  color: #ae6d0a;
+  font-size: 2.25rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-.greet-des{
-     color: #000;
-font-size: 1.55rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.greet-des {
+  color: #000;
+  font-size: 1.55rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.des-amb{
+.des-amb {
+  color: #000;
+  font-size: 1.55rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.job {
+  color: #fee60b;
+  font-size: 1.95rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.contact-button {
+  width: 12.875rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+  border-radius: 1.625rem;
+  border: 1px solid #ae6d0a;
+  color: #000;
+  font-size: 2.25rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contact-button:hover {
+  width: 12.875rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+  border-radius: 1.625rem;
+  border: 1px solid #c3a67b;
+  color: rgb(251, 249, 249);
+  font-size: 2.25rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f6980c;
+  transition: 0.9s;
+}
+.last-sec {
+  padding-left: 13.56rem;
+  padding-right: 9.44rem;
+}
+.downloadCV {
+  color: #000;
+  font-size: 2.25rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 0.3125rem solid #fee60b;
+  cursor: pointer;
+}
+.downloadCV:hover {
+  color: #ae6d0a;
+  font-size: 2.15rem;
+  font-family: Alumni Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: 0.6s;
+}
+.lastMobSec{
+    margin-top: 1.81rem;
+}
+.mobContact {
+  color: #000;
+  font-family: Alumni Sans;
+  font-size: 1.45956rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 1.05413rem;
+border: 0.649px solid #AE6D0A;
+padding-left: 2.23rem;
+padding-right: 2.32rem;
+}
+.downloadMob{
     color: #000;
-font-size: 1.55rem;
 font-family: Alumni Sans;
+font-size: 1.89475rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+border-bottom: 0.26319rem solid #FEE60B;
 }
-.job{
-     color: #FEE60B;
-font-size: 1.95rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.projects{
+    margin-top: 72px;
 }
-.contact-button{
-    width: 12.875rem;
-height: 3.25rem;
-flex-shrink: 0;
-border-radius: 1.625rem;
-border: 1px solid #AE6D0A;
-color: #000;
-font-size: 2.25rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: center;
-cursor: pointer;
-}
-.contact-button:hover{
-        width: 12.875rem;
-height: 3.25rem;
-flex-shrink: 0;
-border-radius: 1.625rem;
-border: 1px solid #c3a67b;
-color: rgb(251, 249, 249);
-font-size: 2.25rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: center;
-cursor: pointer;
-background-color: #f6980c;
-transition: .9s;
-}
-.last-sec{
-    padding-left: 13.56rem;
-    padding-right: 9.44rem;
-}
-.downloadCV{
+.projName{
+    font-family: Alumni Sans;
     color: #000;
-font-size: 2.25rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-border-bottom:  0.3125rem solid #FEE60B;
-cursor: pointer;
+    font-weight: 600;
+    font-size: 1.919rem;
+
 }
-.downloadCV:hover{
+.projDes{
+    color: #000;
+font-family: Alumni Sans;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.15rem;
+}
+.contactMe{
     color: #AE6D0A;
-font-size: 2.15rem;
+text-align: center;
 font-family: Alumni Sans;
+font-size: 2.10244rem;
 font-style: normal;
-font-weight: 600;
+font-weight: 700;
 line-height: normal;
-transition: .6s;
 }
 @media (max-width: 767px) {
-   .des-body{
+  .des-body {
     padding-left: 2.31rem;
-    padding-right: 1.25;
-    
-   }
-   .last-sec{
+    padding-right: 1.25rem;
+  }
+  .last-sec {
     padding: 0;
-   }
-   .downloadCV{
-     width: fit-content;
-   }
-   .mob-name{
+  }
+  .downloadCV {
+    width: fit-content;
+  }
+  .mob-name {
     color: #000;
-font-size: 0.91931rem;
-font-family: Alumni Sans;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-   }
-   .mob-logo{
+    font-size: 0.91931rem;
+    font-family: Alumni Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .mob-logo {
     width: 2.71781rem;
-height: 2.13413rem;
-   }
+    height: 2.13413rem;
+  }
+}
+@media (min-width:450px) and (max-width: 767px) {
+    .lastMobSec{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (min-width:319px) and (max-width: 400px) {
+    .projImg{
+        width: 100%;
+    }
+    .projImgcont{
+        width: 100%;
+    }
 }
