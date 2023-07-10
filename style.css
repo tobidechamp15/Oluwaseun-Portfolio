@@ -1,6 +1,43 @@
 * {
   box-sizing: border-box;
 }
+/* Define scrollbar styles for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8B4513;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #A0522D;
+}
+
+/* Define scrollbar styles for Firefox */
+/* Note: Firefox supports scrollbar styling starting from version 64 */
+/* To ensure compatibility with older versions of Firefox, you can use a library like 'overlay-scrollbar' */
+/* More info: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars */
+/* Keep in mind that this example does not cover Firefox versions older than 64 */
+/* It's always a good idea to test in different browsers to ensure cross-browser compatibility */
+
+/* Track */
+scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+/* Handle */
+scrollbar-thumb {
+  background-color: #8B4513;
+}
+
+/* Handle on hover */
+scrollbar-thumb:hover {
+  background-color: #A0522D;
+}
+
 .menu-bar {
   width: 0.8125rem;
   height: 0.625rem;
