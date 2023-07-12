@@ -110,3 +110,4 @@ contactButton.addEventListener("click", () => {
     behavior:"smooth"
   })
 })
+
